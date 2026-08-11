@@ -39,6 +39,4 @@ spec:
             limits:
               cpu: 200m
               memory: 128Mi
-      # Uncomment if your Docker Hub repo is private
-      # imagePullSecrets:
-      #   - name: dockerhub-secret
+      
