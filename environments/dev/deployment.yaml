@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: react-cicd-demo
-          image: your-dockerhub-username/react-cicd-demo:INITIAL_TAG
+          image: 
           ports:
             - containerPort: 80
           readinessProbe:
