@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 
-    targetRevision: main
+    repoURL: https://github.com/MySagarGitHub/Gitops-manifests.git
+    targetRevision: main  
     path: environments/dev
   destination:
     server: https://kubernetes.default.svc
