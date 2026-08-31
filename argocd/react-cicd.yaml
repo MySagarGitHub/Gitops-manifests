@@ -5,7 +5,11 @@ metadata:
   namespace: argocd
 spec:
   project: default
+<<<<<<< HEAD
   source:  https://github.com/MySagarGitHub/Gitops-manifests.git
+=======
+  source:
+>>>>>>> 341e2ed7ab742526b0e040e646851a84ecd8ba15
     repoURL: 
     targetRevision: main  
     path: environments/dev
